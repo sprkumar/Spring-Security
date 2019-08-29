@@ -37,7 +37,7 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter {
 	}
 
 	
-	// for authorization 
+	// for authorization confgure with HttpSecurity parameters
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
